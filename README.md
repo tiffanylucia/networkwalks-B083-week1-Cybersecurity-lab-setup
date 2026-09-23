@@ -93,4 +93,5 @@ DNS:           8.8.8.8
 Kali Linux:    10.0.0.x
 
 ## 🏗️ Kali Linux Successful launch
-
+# SCREENSHOTS
+![.](WhatsApp Image 2026-09-22 at 11.46.21.jpeg).
