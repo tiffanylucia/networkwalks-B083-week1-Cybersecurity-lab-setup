@@ -94,5 +94,3 @@ Kali Linux:    10.0.0.x
 
 ## 🏗️ Kali Linux Successful launch
 
-![](1-<img width="1600" height="1127" alt="WhatsApp Image 2026-09-22 at 11 46 21" src="https://github.com/user-attachments/assets/eabb6c51-b864-4b86-ab1d-c06eb4dc8061" />
-)
