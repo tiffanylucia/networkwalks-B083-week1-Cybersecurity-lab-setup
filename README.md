@@ -91,6 +91,7 @@ Network:       10.0.0.0/24
 Gateway:       10.0.0.1
 DNS:           8.8.8.8
 Kali Linux:    10.0.0.x
+---
 
 ## 🏗️ Kali Linux Successful launch
 # SCREENSHOTS
