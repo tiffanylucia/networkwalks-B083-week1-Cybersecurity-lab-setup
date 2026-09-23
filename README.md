@@ -80,19 +80,113 @@ cybersecurity learning and authorized testing.
 
 ---
 
-## 🌐 Network Configuration
+## 💡 Key Takeaways
 
-The Kali Linux virtual machine is connected to a dedicated NAT Network.
+Working on this project helped me understand how to build and prepare an isolated virtual environment for cybersecurity training and practical exercises.
 
-The network uses the following addressing scheme:
+Some of the main concepts I gained knowledge of include:
 
-```text
-Network:       10.0.0.0/24
-Gateway:       10.0.0.1
-DNS:           8.8.8.8
-Kali Linux:    10.0.0.x
+### 1. NAT and NAT Network
+
+I learned that VirtualBox provides different networking modes for virtual machines, including standard NAT and NAT Network.
+
+A NAT Network makes it possible for several virtual machines to operate on the same private virtual network. The machines can communicate with each other while still being able to access external networks through network address translation.
+
+This type of setup is useful when creating a controlled environment for cybersecurity labs involving multiple virtual machines.
+
+### 2. Virtual Machine Networking
+
+I learned how VirtualBox network adapters are used to connect virtual machines to different network environments.
+
+The network mode selected for a virtual machine affects how that machine communicates with other virtual machines, the host computer, and external networks.
+
+Understanding these settings is important when preparing an isolated cybersecurity testing environment.
+
+### 3. Static IP Configuration
+
+I gained practical experience configuring IPv4 network settings in Kali Linux.
+
+This included working with:
+
+- IP addresses
+- Subnet masks
+- Default gateways
+- DNS servers
+
+I also learned how to verify that the network configuration is working correctly after applying the settings.
+
+### 4. Virtual Machine Snapshots
+
+I learned the importance of creating a snapshot of a virtual machine before carrying out experimental or potentially disruptive cybersecurity activities.
+
+A snapshot provides a restore point that can be used to return the virtual machine to a previous working state if something goes wrong.
+
+This is particularly useful when experimenting with different configurations and cybersecurity tools.
+
+### 5. Project Documentation
+
+Another important lesson was the value of documenting the work carried out during a technical project.
+
+Recording commands, configurations, screenshots, errors, troubleshooting steps, and solutions makes the project easier to understand, reproduce, and review.
+
+Good documentation is an important part of maintaining a professional cybersecurity project.
+
 ---
 
-## 🏗️ Kali Linux Successful launch
-# SCREENSHOTS
-![.](WhatsApp Image 2026-09-22 at 11.46.21.jpeg).
+## 🔐 Security and Ethical Use
+
+This laboratory environment was created for educational and cybersecurity training purposes.
+
+All testing and experimentation should be performed only on systems and networks where permission has been granted.
+
+The virtual environment provides a controlled space for learning networking, system configuration, cybersecurity tools, and penetration-testing concepts without intentionally affecting unauthorized systems.
+
+---
+
+## 🔗 Tools and Resources
+
+The following resources were useful during the setup and configuration of the laboratory:
+
+- **7-Zip:** https://7-zip.org/download.html
+- **VirtualBox:** https://virtualbox.org/wiki/Downloads
+- **Kali Linux:** https://kali.org/get-kali
+
+These resources provide the software and documentation required for setting up the virtual cybersecurity environment.
+
+---
+
+## 👤 Author
+
+**Tiffany Lucia**
+
+Cybersecurity Learner / Student
+
+GitHub: []
+
+LinkedIn: []
+
+---
+
+## 📌 Project Information
+
+**Program:** Cybersecurity Training
+
+**Week:** 01
+
+**Project:** Virtual Cybersecurity Laboratory Setup
+
+**Environment:** VirtualBox + Kali Linux
+
+**Network Type:** NAT Network
+
+**Network Range:** `10.0.0.0/24`
+
+**Repository:** GitHub
+
+---
+
+## 📝 Final Note
+
+This project provided practical experience with virtual machines, network configuration, Kali Linux, and documentation. It also established a controlled environment that can be used for future cybersecurity exercises and additional laboratory activities.
+---
+
