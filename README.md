@@ -161,9 +161,9 @@ These resources provide the software and documentation required for setting up t
 
 Cybersecurity Learner / Student
 
-GitHub: []
+GitHub: [Https://github.com/tiffanylucia/tiffanylucia)]
 
-LinkedIn: []
+LinkedIn: [www.linkedin.com/in/tiffany-lucia-511b72353]
 
 ---
 
